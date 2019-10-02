@@ -1,0 +1,45 @@
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+h2 {
+    border-bottom: 10px solid #333;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.logos {
+    margin-bottom: 10px;
+}
+
+button {
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: green;
+    color: #fff;
+}
+
+li {
+    font-size: 16px;
+    margin: 10px 0 10px 15px;
+}
+
+li::before {
+    content: "– ";
+    margin-left: -15px;
+}
