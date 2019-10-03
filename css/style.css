@@ -1,12 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
 p {
     font-size: 18px;
+    font-weight: 500;
     line-height: 1.8;
     margin-bottom: 20px;
+}
+
+.full-width {
+    width: 100%;
 }
 
 section {
     padding: 2rem 0;
 }
+
+.greyback {
+    background: #eee;
+}
+
 
 h2 {
     border-bottom: 10px solid #333;
@@ -16,22 +32,39 @@ h2 {
 
 section h3 {
     font-size: 24px;
+    font-weight: 700;
     margin-bottom: 10px;
+}
+
+section h5 {
+    background: #dadada;
+    margin-bottom: 5px;
+    padding: 10px 0 10px 10px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.greyback h5 {
+    background: #fff;
 }
 
 .logos {
     margin-bottom: 10px;
 }
 
-button {
+.biglink {
     border: none;
+    border-radius: 10px;
+    background-color: #5850DE;
+    color: #fff;
     font-size: 16px;
     padding: 10px;
+    text-decoration: none;
 }
 
-button:hover {
-    background-color: green;
-    color: #fff;
+.biglink:hover {
+    background-color: #31C8C8;
+    color: #5850DE;
 }
 
 li {
