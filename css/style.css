@@ -55,7 +55,11 @@ section h5 {
 .biglink {
     border: none;
     border-radius: 10px;
-    background-color: #5850DE;
+    background: #5850DE;
+    background: 
+        linear-gradient(90deg, rgba(233,178,29,1) 2%, 
+                               rgba(37,212,68,1) 51%, 
+                               rgba(28,118,215,1) 100%);
     color: #fff;
     font-size: 16px;
     padding: 10px;
