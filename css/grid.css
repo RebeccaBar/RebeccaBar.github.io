@@ -3,6 +3,11 @@
     grid-template-rows: 220px max-content 155px;
 }
 
+.content-container {
+    padding: 0 10vw;
+    overflow-x: hidden;
+}
+
 .full {
     width: 100%;
 }
@@ -10,7 +15,6 @@
 .container {
     color: #333;
     margin: 0 auto;
-    width: 620px;
 }
 
 .margin-100 {
@@ -43,7 +47,7 @@
 }
 
 @media (max-width: 530px) {
-    .container {        
+    .container {
         margin: 0 auto;
         width: 95%;
     }
@@ -53,24 +57,11 @@
     }
 }
 
-li {
-    font-size: 16px;
-    margin: 10px 0 10px 15px;
-}
-
-li::before {
-    content: "– ";
-    margin-left: -15px;
-}
-
 * {  box-sizing: border-box; }
 
-footer {
-  background-color: green;
-  width: 100%;
-}
+/* Better to style based in classes for customization ease? */
 
-ul {
+/* ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
@@ -80,10 +71,4 @@ ul {
 li {
   margin-top: 20px;
   padding: 0 10px;
-}
-
-img {
-  background-color: #fff;
-  height: 50px;
-  width: 100px;
-}
+} */

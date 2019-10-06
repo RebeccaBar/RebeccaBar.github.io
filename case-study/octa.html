@@ -1,17 +1,27 @@
 <html>
     <head>
-        <meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0">
         <title>FeatherFrame</title>
         <link rel="stylesheet" type="text/css" href="../css/reset.css">
         <link rel="stylesheet" type="text/css" href="../css/grid.css">
         <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/utilities.css">
     </head>
     <body>
         <div class="main-wrapper">
-            <header class="header">Header goes here</header>
-            <div class="main-content">
+            <header class="header content-container">
+                <div class="main-logo">
+                    <img src="/images/googledrive-logo.png" alt="Rebecca Logo"/>
+                </div>
+                <ul class="main-nav">
+                    <li><a href="#" class="main-nav__link">about</a></li>
+                    <li><a href="#" class="main-nav__link">writing</a></li>
+                    <li><a href="#" class="main-nav__link">contact</a></li>
+                </ul>
+            </header>
+            <div class="main-content content-container">
                 <h2>overview</h2>
-                <h4>Roles:</h4>
+                <h4 class="mt4">Roles:</h4>
                 <p>UX/UI Research & Design, Branding, Copy</p>
                 <h4>Tools:</h4>
                 <p>Sketch, Invision Studio & App, Figma</p>
@@ -81,12 +91,12 @@
                         <li>I want to collaborate w/my supplier and share items to source</li>
                         <li>I want to check sales history per SKU while ordering</li>
                     </ul>
-                        
+
                     <h5>As a wholesaler</h5>
                     <ul>
                         <li>I want to learn how to source better products for my retailers</li>
                         <li>I want to organize my business so I can focus on growing it</li>
-                        <li>I want to find more customers to sell my offerings to</li>  
+                        <li>I want to find more customers to sell my offerings to</li>
                     </ul>
                     <a class="biglink" href="https://drive.google.com/open?id=1XSN7CbfhmQoFsFASWByYvYiGdDcNGiMB">View User Stories</a>
                 </section>
@@ -168,7 +178,7 @@
                 </section>
 
                 <section class="greyback">
-                    <div class="container">
+                    <div>
                         <h3>HIFI Design</h3>
                         <img src="../images/dash-newsign-img.png" alt="Image of OCTA's Dashboard When a User First Signs In">
                         <img src="../images/dashfull-img.png" alt="Image of OCTA's Dashboard When it's Full of Notifications">
@@ -197,7 +207,7 @@
                         <img src="../images/idea-saved-img.png" alt="Image of OCTA's Idea Saved Screen">
                         <h5>STYLING</h5>
                         <P>Icons, buttons, and colors remain consistent throughout the app.</P>
-                        
+
                     </div>
                 </section>
 
@@ -210,8 +220,8 @@
                     <h7>Return Home</h7>
                 </section>
             </div>
-            <footer class ="footer">
-                <div>
+            <footer class ="footer content-container">
+                <div class="footer-content">
                     <ul>
                         <li>case study</li>
                         <li>bio</li>
