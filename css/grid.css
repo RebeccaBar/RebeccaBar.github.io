@@ -1,3 +1,8 @@
+.main-wrapper {
+    display: grid;
+    grid-template-rows: 220px max-content 155px;
+}
+
 .full {
     width: 100%;
 }
@@ -48,3 +53,37 @@
     }
 }
 
+li {
+    font-size: 16px;
+    margin: 10px 0 10px 15px;
+}
+
+li::before {
+    content: "– ";
+    margin-left: -15px;
+}
+
+* {  box-sizing: border-box; }
+
+footer {
+  background-color: green;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+img {
+  background-color: #fff;
+  height: 50px;
+  width: 100px;
+}

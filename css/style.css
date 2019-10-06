@@ -80,3 +80,36 @@ li::before {
     content: "– ";
     margin-left: -15px;
 }
+
+* {  box-sizing: border-box; }
+
+footer {
+  background-color: green;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+  padding: 2rem 0 10rem 0;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+img {
+  background-color: #fff;
+  height: 50px;
+  width: 100px;
+}
