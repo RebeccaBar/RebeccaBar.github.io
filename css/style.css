@@ -82,9 +82,9 @@ h9 {
 }
 
 .biglink {
+    background-size: 200% auto;
     border: none;
     border-radius: 10px;
-    background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
     color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -95,8 +95,11 @@ h9 {
 
 /* I wanted the button gradient to move to the right when hovered on, but it didnt work. */
 .biglink:hover {
-    background-position: right;
-    padding: 1rem;
+    background-position: right center;
+}
+
+.background {
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
 }
 
 .octa-hero {
