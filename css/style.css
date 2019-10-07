@@ -9,6 +9,7 @@ p {
     font-weight: 500;
     line-height: 1.8;
     margin-bottom: 20px;
+    color:#656565;
 }
 
 .full-width {
@@ -42,6 +43,15 @@ section h5 {
     padding: 10px 0 10px 10px;
     text-transform: uppercase;
     width: 100%;
+}
+
+section h7 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #656565;
+    text-transform: lowercase;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .greyback h5 {
@@ -124,10 +134,13 @@ li::before {
 /* Footer Styles */
 
 .footer {
-  width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.footer-content {
+.social-media {
     display: flex;
     align-items: center;
     width: 100%;
