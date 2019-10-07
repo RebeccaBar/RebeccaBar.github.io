@@ -33,11 +33,17 @@ h1 {
 h2 {
     border-bottom: 1px solid #878787;
     font-size: 30px;
-    padding-bottom: 10px;
+    padding: 70px 0 10px 0;
 }
 
 section h3 {
     font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 22px;
     font-weight: 700;
     margin-bottom: 10px;
 }
@@ -59,11 +65,11 @@ section h7 {
     margin-top: 40px;
 }
 
-h8 {
+.intro {
     color:#737373;
     font-size: 25px;
     font-weight: 500;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 h9 {
@@ -88,7 +94,7 @@ h9 {
     color: #fff;
     font-size: 16px;
     font-weight: bold;
-    padding: 10px;
+    padding: 15px 30px;
     text-decoration: none;
     transition: .5s;
 }
@@ -98,18 +104,26 @@ h9 {
     background-position: right center;
 }
 
-.background {
-    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+.background-herolink, .background-btn {
+    background-image: linear-gradient(to right, #5850DE 0%, #31C8C8 50%, #458BD3 100%);
+}
+
+.background-btn {
+    padding: 10px 20px;
 }
 
 .octa-hero {
-    background-image: url(/images/octa-mockups.png);
-    background-size: 70%;
+    background-image: url(/images/octa-mockups2.png);
+    background-size: 100%;
     height: 60vh;
     overflow: hidden;
     background-position: right;
 
     background-repeat: no-repeat;
+}
+
+.main-logo {
+    width: 50px;
 }
 
 .main-content {
