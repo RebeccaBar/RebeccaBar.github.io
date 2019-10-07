@@ -1,11 +1,16 @@
 .main-wrapper {
     display: grid;
-    grid-template-rows: 220px max-content 155px;
+    /* grid-template-rows: 220px max-content 155px; */
 }
 
 .content-container {
-    padding: 0 10vw;
+    background-color: #F9FCFF;
+    padding: 0 20vw;
     overflow-x: hidden;
+}
+
+.wide-container {
+    padding: 0 10vw;
 }
 
 .full {

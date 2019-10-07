@@ -84,20 +84,35 @@ h9 {
 .biglink {
     border: none;
     border-radius: 10px;
-    background:
-        linear-gradient(90deg, rgba(88,80,222,1) 2%,
-                               rgba(69,138,211,1) 51%,
-                               rgba(49,200,200,1) 100%);
+    background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
     color: #fff;
     font-size: 16px;
     font-weight: bold;
     padding: 10px;
     text-decoration: none;
+    transition: .5s;
 }
 
 /* I wanted the button gradient to move to the right when hovered on, but it didnt work. */
 .biglink:hover {
     background-position: right;
+    padding: 1rem;
+}
+
+.octa-hero {
+    background-image: url(/images/octa-mockups.png);
+    background-size: 70%;
+    height: 60vh;
+    overflow: hidden;
+    background-position: right;
+
+    background-repeat: no-repeat;
+}
+
+.main-content {
+    display: flex;
+    align-items: center; 
+    height: 100%;
 }
 
 /* Better to style based in classes for customization ease? */
@@ -125,7 +140,8 @@ li::before {
 
 /***** Header Styles *****/
 
-.header {
+header {
+    background-color: #F9FCFF;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -135,6 +151,7 @@ li::before {
 .main-nav {
     display: flex;
     justify-content: space-between;
+    padding: 100px 0;
     width: 300px;
 }
 
