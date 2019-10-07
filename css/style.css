@@ -25,7 +25,7 @@ section {
 
 
 h2 {
-    border-bottom: 10px solid #333;
+    border-bottom: 1px solid #878787;
     font-size: 30px;
     padding-bottom: 10px;
 }
@@ -57,9 +57,9 @@ section h5 {
     border-radius: 10px;
     background: #5850DE;
     background:
-        linear-gradient(90deg, rgba(233,178,29,1) 2%,
-                               rgba(37,212,68,1) 51%,
-                               rgba(28,118,215,1) 100%);
+        linear-gradient(90deg, rgba(88,80,222,1) 2%,
+                               rgba(69,138,211,1) 51%,
+                               rgba(49,200,200,1) 100%);
     color: #fff;
     font-size: 16px;
     padding: 10px;
@@ -117,7 +117,7 @@ li::before {
 }
 
 .main-nav__link:hover {
-    color: blue;
+    color: #6C63FF;
 }
 
 /* Footer Styles */
