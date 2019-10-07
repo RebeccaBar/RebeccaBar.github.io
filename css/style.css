@@ -24,6 +24,11 @@ section {
     background: #eee;
 }
 
+h1 {
+    color: #333333;
+    font-size: 48px;
+    font-weight: 500;
+}
 
 h2 {
     border-bottom: 1px solid #878787;
@@ -54,6 +59,13 @@ section h7 {
     margin-top: 40px;
 }
 
+h8 {
+    color:#737373;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
 .greyback h5 {
     background: #fff;
 }
@@ -65,7 +77,6 @@ section h7 {
 .biglink {
     border: none;
     border-radius: 10px;
-    background: #5850DE;
     background:
         linear-gradient(90deg, rgba(88,80,222,1) 2%,
                                rgba(69,138,211,1) 51%,
@@ -77,9 +88,9 @@ section h7 {
     text-decoration: none;
 }
 
+/* I wanted the button gradient to move to the right when hovered on, but it didnt work. */
 .biglink:hover {
-    background-color: #31C8C8;
-    color: #5850DE;
+    background-position: right;
 }
 
 /* Better to style based in classes for customization ease? */
