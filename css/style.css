@@ -81,8 +81,15 @@ section h5 {
 }
 
 .logos {
+    display: flex;
     margin-bottom: 10px;
+    width: 66%;
 }
+
+.logos img {
+    margin-right: 20px;
+}
+
 
 .biglink {
     background-size: 200% auto;
@@ -127,6 +134,11 @@ section h5 {
     display: flex;
     align-items: center; 
     height: 100%;
+}
+
+.prob, .prod {
+    display: flex;
+    align-items: center;
 }
 
 /* Better to style based in classes for customization ease? */

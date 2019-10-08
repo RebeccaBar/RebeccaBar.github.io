@@ -25,6 +25,10 @@
     width: 50%;
 }
 
+.quarter {
+    width: 25%;
+}
+
 .container {
     color: #333;
     margin: 0 auto;
