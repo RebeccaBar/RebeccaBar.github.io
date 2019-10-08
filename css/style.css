@@ -36,6 +36,12 @@ h2 {
     padding: 70px 0 10px 0;
 }
 
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: lowercase;
+}
+
 section h3 {
     font-size: 24px;
     font-weight: 700;
