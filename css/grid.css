@@ -15,14 +15,12 @@
 
 .full {
     width: 100%;
-}
-
-.fuller {
-    width: 150%;
+    padding-bottom: 15px;
 }
 
 .half {
     width: 50%;
+    padding-bottom: 15px;
 }
 
 .container {

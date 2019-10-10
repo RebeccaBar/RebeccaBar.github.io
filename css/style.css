@@ -33,13 +33,14 @@ h1 {
 h2 {
     border-bottom: 1px solid #878787;
     font-size: 30px;
-    padding: 70px 0 10px 0;
+    padding: 70px 0 30px 0;
 }
 
 h3 {
     font-size: 24px;
     font-weight: 700;
     text-transform: lowercase;
+    padding-bottom: 15px;
 }
 
 section h3 {
@@ -88,6 +89,7 @@ section h5 {
 
 .logos img {
     margin-right: 20px;
+    padding-bottom: 15px;
 }
 
 
