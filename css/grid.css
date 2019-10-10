@@ -58,8 +58,9 @@
 }
 
 @media (max-width: 530px) {
-    .container {
+    .container, .wide-container, .content-container {
         margin: 0 auto;
+        padding: 0 5vw;
         width: 95%;
     }
 

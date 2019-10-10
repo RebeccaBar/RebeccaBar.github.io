@@ -24,6 +24,10 @@ section {
     background: #eee;
 }
 
+.greyback .content-container {
+    background: #eee;
+}
+
 h1 {
     color: #333333;
     font-size: 48px;
@@ -99,8 +103,15 @@ section h5 {
 }
 
 .logos img {
-    margin-right: 20px;
+    width: 31%;
+    margin-right: 2%;
     padding-bottom: 15px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
 }
 
 
@@ -109,10 +120,13 @@ section h5 {
     border: none;
     border-radius: 10px;
     color: #fff;
+    display: block;
     font-size: 16px;
     font-weight: bold;
-    padding: 15px 30px;
+    padding: 20px 0;
+    width: 50%;
     text-decoration: none;
+    text-align: center;
     transition: .5s;
 }
 
@@ -126,7 +140,11 @@ section h5 {
 }
 
 .background-btn {
-    padding: 10px 20px;
+    width: 50%;
+}
+
+.button-margin {
+    margin-bottom: 40px;
 }
 
 .octa-hero {
@@ -160,25 +178,29 @@ section h5 {
 }
 
 /* Better to style based in classes for customization ease? */
-/*
+
 ul {
   list-style-type: none;
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-li {
+.stories li {
     margin-top: 20px;
     padding: 0 10px;
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 1.7;
     margin: 10px 0 10px 15px;
 }
 
-li::before {
+.stories li:last-child {
+    margin-bottom: 50px;
+}
+
+.stories li::before {
     content: "– ";
-    margin-left: -15px;
-} */
+    margin-left: -25px;
+}
 
 * {  box-sizing: border-box; }
 
@@ -260,4 +282,10 @@ header {
   margin: 0 auto;
   width: 80%;
   padding: 2rem 0 10rem 0;
+}
+
+@media (max-width: 530px) {
+    .biglink, .logos {
+        width: 100%;
+    }
 }
