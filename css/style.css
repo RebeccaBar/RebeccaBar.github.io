@@ -138,6 +138,11 @@ section h5 {
     height: 100%;
 }
 
+.bio-hero {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
 .prob, .prod {
     display: flex;
     align-items: center;
