@@ -114,10 +114,14 @@ section h5 {
     padding-bottom: 15px;
 }
 
-.image-grid {
+.image-grid, .hifi-dash {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
+}
+
+.hifi-dash {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 
