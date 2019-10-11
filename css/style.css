@@ -177,8 +177,6 @@ section h5 {
     align-items: center;
 }
 
-/* Better to style based in classes for customization ease? */
-
 ul {
   list-style-type: none;
   justify-content: space-between;
@@ -274,6 +272,18 @@ header {
 
 .sm-icon:hover {
     color: #6C63FF;
+}
+
+.wireframes li {
+        margin-top: 20px;
+        padding: 0 10px;
+        font-size: 18px;
+        margin: 10px 0 10px 15px;
+}
+
+.wireframes li::before {
+    content: "– ";
+    margin-left: -25px;
 }
 
 .container {
