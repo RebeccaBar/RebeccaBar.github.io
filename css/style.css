@@ -45,14 +45,21 @@ h3 {
     font-size: 24px;
     font-weight: 700;
     text-transform: lowercase;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     font-family: 'Montserrat Alternates', sans-serif;
+    color: #333333
 }
 
 section h3 {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 10px;
+}
+
+h3.light {
+    font-weight: 400;
+    color: #737373;
+    font-size: 24px;
 }
 
 h4 {
@@ -258,7 +265,7 @@ header {
 }
 
 .main-nav__link {
-    color: #333333;
+    color: #555555;
     font-size: 18px;
     font-weight: 500;
     text-decoration: none;
@@ -317,11 +324,13 @@ header {
         padding: 0 10px;
         font-size: 18px;
         margin: 10px 0 10px 15px;
+        color: #656565;
 }
 
 .wireframes li::before {
-    content: "– ";
-    margin-left: -25px;
+    /* content: "– "; */
+    margin-left: -px;
+    font-size: 18px;
 }
 
 .container {
