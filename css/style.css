@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,500,600,700&display=swap');
 
 body {
     font-family: 'Quicksand', sans-serif;
@@ -74,6 +74,7 @@ section h5 {
     font-size: 25px;
     font-weight: 500;
     padding-bottom: 20px;
+    line-height: 1.4;
 }
 
 .intro-section {
@@ -129,7 +130,7 @@ section h5 {
     color: #F9FCFF;
     display: block;
     font-size: 16px;
-    font-weight: 900;
+    font-weight: 700;
     padding: 20px 0;
     width: 50%;
     text-decoration: none;
@@ -161,8 +162,12 @@ section h5 {
     overflow: hidden;
     padding: 0 0;
     background-position: right;
-    background-color: F9FCFF;
+    background-color: none;
     background-repeat: no-repeat;
+}
+
+.bio-back {
+    background-color: #F9FCFF;
 }
 
 .overlay {
