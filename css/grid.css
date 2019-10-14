@@ -50,6 +50,15 @@
     grid-gap: 20px;
 }
 
+.twoCol-center-home {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+}
+
 @media (max-width: 768px) {
     .container {
         margin: 0 auto;
