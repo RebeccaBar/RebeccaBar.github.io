@@ -31,8 +31,8 @@ section {
 
 h1 {
     color: #333333;
-    font-size: 48px;
-    font-weight: 500;
+    font-size: 68px;
+    font-weight: 600;
 }
 
 h2 {
@@ -78,9 +78,10 @@ section h5 {
 
 .intro {
     color:#737373;
-    font-size: 25px;
+    font-size: 34px;
     font-weight: 500;
     padding-bottom: 20px;
+    padding-top: 20px;
     line-height: 1.4;
 }
 
@@ -97,7 +98,7 @@ section h5 {
 
 .description {
     color:#737373;
-    font-size: 22px;
+    font-size: 34px;
     font-weight: 500;
     padding-bottom: 20px;
     max-width: 540px;
@@ -175,14 +176,19 @@ section h5 {
 
 .bio-back {
     background-color: #F9FCFF;
+    padding-top: 20px;
 }
 
-.overlay {
+/* .overlay {
     background-color: rgba(222,222,222,0);
     overflow: hidden;
     width: 100%;
     height: 100%;
-}
+} */
+
+/* .img.full.me {
+    padding-bottom: 20 20 20;
+} */
 
 @media (max-width: 900px) {
     .octa-hero {
@@ -201,6 +207,12 @@ section h5 {
             background-color: rgba(222,222,222,.9);
         }
 }
+
+/* @media (max-width: 530px) {
+    .responsive-copyright {
+        width: 100%;
+    }
+} */
 
 .main-logo {
     width: 50px;
@@ -346,3 +358,4 @@ header {
         width: 100%;
     }
 }
+
