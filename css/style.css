@@ -17,6 +17,12 @@ p {
     color:#656565;
 }
 
+h6 {
+    font-weight: 700px;
+    font-size: 18px;
+    text-transform: uppercase
+}
+
 .full-width {
     width: 100%;
 }
