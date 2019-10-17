@@ -126,6 +126,14 @@ section h5 {
     padding-bottom: 15px;
 }
 
+.flows {
+    background-image: url(../images/flows-img-big.png);
+}
+
+.flows .content-container {
+    background: none;
+}
+
 .image-grid, .hifi-dash {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -334,6 +342,10 @@ header {
     padding-bottom: 80px;
 }
 
+.learned {
+    margin-top: 4rem;
+}
+
 .copyright {
     grid-area: copy;
 }
@@ -346,6 +358,10 @@ header {
     .footer-content {
         grid-template-areas: "social"
                              "copy";
+    }
+
+    .copyright {
+        margin-top: 20px;
     }
 
     .footer-content p {
