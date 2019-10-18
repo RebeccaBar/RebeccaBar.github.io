@@ -14,7 +14,7 @@ p {
     font-weight: 400;
     line-height: 1.8;
     margin-bottom: 20px;
-    color:#656565;
+    /* color:#656565; */
 }
 
 h6 {
@@ -105,9 +105,10 @@ section h5 {
 .description {
     color:#737373;
     font-size: 34px;
-    font-weight: 500;
+    font-weight: 300;
+    line-height: 1.5;
     padding-bottom: 20px;
-    max-width: 540px;
+    max-width: 600px;
 }
 
 .greyback h5 {
@@ -246,7 +247,7 @@ ul {
 
 .stories li, .wireframes li {
     margin-top: 20px;
-    padding: 0 10px;
+    /* padding: 0 10px; */
     font-size: 18px;
     line-height: 1.7;
     margin: 10px 0 10px 15px;
@@ -258,7 +259,7 @@ ul {
 
 .stories li::before, .wireframes li::before {
     content: "– ";
-    margin-left: -25px;
+    margin-left: -13px;
 }
 
 .persona {
