@@ -170,6 +170,18 @@ section h5 {
     transition: .5s;
 }
 
+.greyback .biglink {
+    width: 100%;
+}
+
+.octa-hero .biglink {
+    width: 80%;
+}
+
+.homebtn, #herobtn {
+    width: 300px;
+}
+
 /* I wanted the button gradient to move to the right when hovered on, but it didnt work. */
 .biglink:hover {
     background-position: right center;
@@ -446,8 +458,12 @@ header {
   padding: 2rem 0 10rem 0;
 }
 
+#work {
+    transition: all 2s;
+}
+
 @media (max-width: 530px) {
-    .biglink, .logos {
+    .biglink, .logos, .octa-hero .biglink, .homebtn, #herobtn {
         width: 100%;
     }
 }
