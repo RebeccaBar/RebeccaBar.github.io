@@ -171,11 +171,12 @@ section h5 {
 }
 
 .greyback .biglink {
-    width: 100%;
+    /* width: 100%; */
+    width: 300px;
 }
 
 .octa-hero .biglink {
-    width: 80%;
+    width: 300px;
 }
 
 .homebtn, #herobtn {
@@ -192,7 +193,7 @@ section h5 {
 }
 
 .background-btn {
-    width: 50%;
+    width: 300px;
 }
 
 .button-margin {
