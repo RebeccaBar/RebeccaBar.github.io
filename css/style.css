@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,500,600,700&display=swap');
 
+:root {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -131,9 +135,10 @@ section h5 {
 }
 
 .logos img {
-    width: 31%;
+    align-self: center;
     margin-right: 2%;
     padding-bottom: 15px;
+    width: 31%;
 }
 
 .flows {
@@ -466,7 +471,20 @@ header {
     transition: all 2s;
 }
 
+.mobile {
+    display: none;
+}
+
 @media (max-width: 530px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        width: 150px;
+    }
+
     .biglink, .logos, .octa-hero .biglink, .homebtn, #herobtn {
         width: 100%;
     }
