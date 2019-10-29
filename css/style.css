@@ -80,7 +80,7 @@ h4 {
 }
 
 section h5 {
-    background: #F1F1F1;
+    background: #FFFFFF;
     margin-bottom: 5px;
     padding: 10px 0 10px 10px;
     text-transform: uppercase;
@@ -107,7 +107,7 @@ section h5 {
 .intro-section {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #F9FCFF;
+    background-color: #FFFFFF;
 }
 
 .page-heading {
@@ -125,7 +125,7 @@ section h5 {
 }
 
 .greyback h5 {
-    background: #fff;
+    background: #FFFFFF;
 }
 
 .logos {
@@ -164,7 +164,7 @@ section h5 {
     background-size: 200% auto;
     border: none;
     border-radius: 10px;
-    color: #F9FCFF;
+    color: #FFFFFF;
     display: block;
     font-size: 16px;
     font-weight: 700;
@@ -214,10 +214,11 @@ section h5 {
     background-position: right;
     background-color: none;
     background-repeat: no-repeat;
+    background-color: #eeeeee;
 }
 
 .bio-back {
-    background-color: #F9FCFF;
+    background-color: #FFFFFF;
     padding-top: 20px;
 }
 
@@ -340,7 +341,7 @@ ul {
 /***** Header Styles *****/
 
 header {
-    background-color: #F9FCFF;
+    background-color: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -380,7 +381,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding-top: 40px;
-    background-color: #F9FCFF;
+    background-color: #FFFFFF;
 }
 
 .footer-content {
