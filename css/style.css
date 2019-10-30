@@ -208,7 +208,7 @@ section h5 {
 .octa-hero {
     background-image: url(/images/octa-mockups.png);
     background-size: 70%;
-    height: 60vh;
+    height: 80vh;
     overflow: hidden;
     padding: 0 0;
     background-position: right;
@@ -232,13 +232,16 @@ section h5 {
 
 @media (max-width: 768px) {
         .octa-hero {
-            height: 55vh;
             background-size: 180%;
             background-position: center;
         }
 
         .overlay {
             background-color: rgba(196, 196, 196, .9);
+        }
+
+        .homebtn {
+            width: 100%;
         }
 }
 
