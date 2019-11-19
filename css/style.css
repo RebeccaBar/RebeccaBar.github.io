@@ -266,6 +266,28 @@ section h5 {
     grid-template-columns: 3fr 2fr;
 }
 
+.hero-text {
+    margin-top: 300px;
+}
+
+
+
+.pink-back {
+    background-color: #FF00AC;
+    padding: 20px;
+}
+
+.pink-back h1, .pink-back p {
+    color: #fff;
+}
+
+.sili-hero-img {
+    height: 800px;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
 @media (max-width: 768px) {
     .bio-hero h1 {
         font-size: 3rem;
