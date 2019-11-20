@@ -35,6 +35,11 @@ section {
     padding: 2rem 0;
 }
 
+section.sili {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
 section.greyback, .greyback .content-container {
     background: #eee;
 }
