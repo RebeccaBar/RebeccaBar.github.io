@@ -18,8 +18,10 @@
 
 .wide-container {
     padding: 0 10vw;
-    /* background-color: #F9FCFF; when I added this it messed up the OCTA hero  */
+}
 
+.sili-container {
+    padding: 0 15vw;
 }
 
 .full {
