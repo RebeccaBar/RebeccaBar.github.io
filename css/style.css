@@ -35,11 +35,6 @@ section {
     padding: 2rem 0;
 }
 
-section.sili {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-}
-
 section.greyback, .greyback .content-container {
     background: #eee;
 }
@@ -278,7 +273,7 @@ section h5 {
 
 
 .pink-back {
-    background-color: rgba(212,2,134,.9);
+    background-image: linear-gradient(to right, rgba(212,2,134,1) 40%,rgba(237,1,140,.4));
     padding: 20px;
 }
 
