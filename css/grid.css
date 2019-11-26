@@ -93,12 +93,16 @@
         padding: 5%;
         width: 90%;
     }
+
+    .sili-container, .images-container {
+        padding: 0 2vw;
+    }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 600px) {
     .container, .wide-container, .content-container {
         margin: 0 auto;
-        padding: 0 5vw;
+        padding: 0 2vw;
         width: 95%;
     }
 
@@ -115,6 +119,10 @@
         grid-gap: 20px;
         padding-top: 5rem;
         padding-bottom: 5rem;
+    }
+
+    .sili-container {
+        width: 100%;
     }
 }
 

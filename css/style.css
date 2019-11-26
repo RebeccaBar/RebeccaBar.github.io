@@ -321,6 +321,7 @@ section h5 {
 
 .sili-hero-img {
     height: 800px;
+    width: 100%;
     overflow: hidden;
     position: absolute;
     z-index: -1;
