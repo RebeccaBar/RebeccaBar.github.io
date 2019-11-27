@@ -70,7 +70,7 @@ section.greyback, .greyback .content-container {
     margin-bottom: 0px;
     padding-bottom: 0px;
     transition: all 0.5s ease;
-} 
+}
 
 .product:hover h3 {
     display: block;
@@ -232,7 +232,11 @@ section h5 {
 }
 
 .background-herolink, .background-btn {
-    background-image: linear-gradient(to right, #5850DE 0%, #31C8C8 50%, #458BD3 100%);
+    background-image: linear-gradient(to right, #5850DE 0%, #458BD3 25%, #31C8C8 50%, #458BD3 75%, #5850DE 100%);
+}
+
+.background-btn.sili-btn {
+    background-image: linear-gradient(to right, #A83082 0%, #EE008C 25%, #FAA619 50%, #EE008C 75%, #A83082 100%);
 }
 
 .background-btn {
@@ -295,7 +299,7 @@ section h5 {
 
 .main-content {
     display: flex;
-    align-items: center; 
+    align-items: center;
     height: 100%;
 }
 
@@ -325,6 +329,11 @@ section h5 {
     overflow: hidden;
     position: absolute;
     z-index: -1;
+}
+
+.sili-hero-img img {
+    height: 100%;
+    width: auto;
 }
 
 @media (max-width: 768px) {
@@ -378,15 +387,15 @@ ul {
     grid-template-areas: "image text";
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
     .product-area {
         grid-template-areas: "text image";
     }
 }
 
-@media (max-width: 530px) { 
+@media (max-width: 530px) {
     .product-area {
-        grid-template-areas: "text" 
+        grid-template-areas: "text"
                              "image";
     }
 }
@@ -419,7 +428,7 @@ header {
     width: 300px;
 }
 
-@media (max-width: 530px) { 
+@media (max-width: 530px) {
     .main-nav {
         width: 70%;
     }
@@ -470,7 +479,7 @@ header {
     grid-area: social;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
     .footer-content {
         grid-template-areas: "social"
                              "copy";
@@ -554,23 +563,23 @@ header {
         left: auto;
         right: 0;
       }
-      
+
       .small .dropdown li {
         background-color: rgba(255,255,255,.9);
-        right: 0; 
+        right: 0;
         left: auto;
         text-align: center;
         padding: 50px;
       }
-      
+
       .small .dropdown li:hover {
         background-color: rgba(111,111,111,.9);
       }
-      
+
       .small .dropdown a {
         color: #000;
       }
-    
+
     ul li ul {
         visibility: hidden;
         opacity: 0;
@@ -601,6 +610,10 @@ header {
     .biglink, .logos, .octa-hero .biglink, .homebtn, #herobtn {
         width: 100%;
     }
-    
+
+}
+
+.sili-pink {
+    color: #EC30AB;
 }
 
