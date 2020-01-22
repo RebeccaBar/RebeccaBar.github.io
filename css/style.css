@@ -252,9 +252,11 @@ section h5 {
 }
 
 .octa-hero {
+    margin-bottom: 40px;
     background-image: url(/images/octa-mockups.png);
     background-size: 70%;
     height: 80vh;
+    min-height: 456px;
     overflow: hidden;
     padding: 0 0;
     background-position: right;
@@ -621,3 +623,46 @@ header {
     color: #EC30AB;
 }
 
+/* Silicandy Home */
+.silicandy-home {
+    margin-bottom: 40px;
+    background-image: url(/images/silicandy-hero-1.png);
+    background-size: cover;
+    height: 80vh;
+    min-height: 456px;
+    overflow: hidden;
+    padding: 0 0;
+    background-color: none;
+    background-repeat: no-repeat;
+    background-color: #eeeeee;
+    display: flex;
+    align-content: center;
+}
+
+.silicandy-home__content-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .7);
+    margin-left: calc(10vw - 40px);
+    padding: 0 40px;
+}
+
+.silicandy-home__logo, .myclickshift-home__logo {
+    width: 30vw;
+    min-width: 350px;
+}
+
+.silicandy-home__description-text, .myclickshift-home__description-text {
+    color: #737373;
+    font-size: 24px;
+    font-weight: 300;
+    max-width: 470px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .silicandy-home__description-text {
+        color: rgb(0, 0, 0);
+    }
+}
