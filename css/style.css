@@ -146,6 +146,26 @@ section h5 {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-sketch {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -9rem;
+}
+
+.profile-sketch img {
+    width: 500px;
+}
+
+@media (max-width: 1390px) {
+    .profile-sketch {
+        margin-top: 0;
+    }
 }
 
 .bold {
