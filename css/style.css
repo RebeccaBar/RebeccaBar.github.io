@@ -271,7 +271,7 @@ section h5 {
     margin-bottom: 40px;
 }
 
-.octa-hero {
+.octa-hero, .care-hero {
     margin-bottom: 40px;
     background-image: url(/images/octa-mockups.png);
     background-size: 70%;
@@ -283,6 +283,17 @@ section h5 {
     background-color: none;
     background-repeat: no-repeat;
     background-color: #eeeeee;
+}
+
+.care-hero {
+    background-image: url(/images/carepoint-hero-2x.png);
+    background-size: 50%;
+    /* background-position: right 105px bottom 20px; */
+    background-color: #dadada;
+}
+
+.care-hero .intro {
+    width: 100%;
 }
 
 .bio-back {
