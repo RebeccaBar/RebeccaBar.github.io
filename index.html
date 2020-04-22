@@ -33,7 +33,8 @@
             </header>
             <div class="intro-section wide-container">
                 <div>
-                    <h1 class="page-heading">rebecca bar</h1>
+                    <h1 class="page-heading">Rebecca Bar</h1>
+                    <!-- <h1 class="page-heading"><span id="ityped" class="ityped"></span></h1> -->
                     <p class="description">Strategic, minimalistic design that matters, from the <img class="copyright-svg" src="../images/mind-icon.svg"> and the <img class="copyright-svg" src="../images/heart-icon.svg">. Working remote for over 5 years.</p>
                 </div>
                 <div class="profile-sketch">
@@ -120,4 +121,15 @@
         </div>
     </footer>
     </div>
-    </body></html>
+    
+    <script src="https://unpkg.com/ityped@1.0.3/dist/index.min.js">
+    </script>
+    <!-- https://www.cssscript.com/pure-js-text-rotator-typing-deleting-effects-ityped-js/ -->
+    <script>
+        ityped.init('#ityped', {
+            strings: ['Put you string here...', 'and Enjoy!'],
+        });
+    </script>
+
+    </body>
+    </html>
