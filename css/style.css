@@ -21,6 +21,15 @@ p {
     color:#656565;
 }
 
+.personal-project {
+    font-size: 18px;
+    font-weight: 700;
+    /* margin-bottom: 20px; */
+    margin-top: 20px;
+    color: #6C63FF;
+}
+
+
 h6 {
     font-weight: 700px;
     font-size: 18px;
