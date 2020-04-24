@@ -334,6 +334,15 @@ section h5 {
             background-color: rgba(196, 196, 196, .9);
         }
 
+        .care-hero {
+            background-image: none;
+        }
+
+        .care-hero .overlay {
+            background-color:  rgba(196, 196, 196, 0);
+
+        }
+
         .homebtn {
             width: 100%;
         }
