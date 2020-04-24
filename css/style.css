@@ -158,7 +158,6 @@ section h5 {
 
 .intro-section {
     padding-top: 50px;
-    padding-bottom: 50px;
     background-color: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
@@ -173,7 +172,13 @@ section h5 {
 }
 
 .profile-sketch img {
-    width: 500px;
+    width: 100%;
+}
+
+@media (min-width: 500px) {
+    .profile-sketch img {
+        width: 500px;
+    }
 }
 
 @media (max-width: 1390px) {
@@ -450,6 +455,12 @@ ul {
 
 .product-area {
     grid-template-areas: "image text";
+}
+
+.inside-space {
+    border-top: 1px #ddd solid;
+    margin-top: 4rem;
+    padding-top: 4rem;
 }
 
 @media (max-width: 768px) {
