@@ -309,6 +309,17 @@ section h5 {
     background-color: #eeeeee;
 }
 
+.hero-mobile {
+    display: block;
+}
+
+@media (min-width: 530px) {
+    .hero-mobile {
+        display: none;
+    }
+}
+
+
 .care-hero {
     background-image: url(/images/carepoint-hero-2x.png);
     background-size: 50%;
@@ -453,8 +464,10 @@ ul {
     margin-bottom: -5px;
 }
 
-.product-area {
-    grid-template-areas: "image text";
+.persona-healthadmin, .persona-nurse, .persona-sysadmin {
+    grid-template-areas: "title"
+                         "image"
+                         "text";
 }
 
 .inside-space {
@@ -463,21 +476,23 @@ ul {
     padding-top: 4rem;
 }
 
-@media (max-width: 768px) {
-    .product-area {
-        grid-template-areas: "text image";
+@media (min-width: 530px) {
+    .persona-healthadmin {
+        grid-template-areas: ". title"
+                             "image text";
     }
-}
-
-@media (max-width: 530px) {
-    .product-area {
-        grid-template-areas: "text"
-                             "image";
+    .persona-nurse, .persona-sysadmin {
+        grid-template-areas: "title ."
+                             "text image";
     }
 }
 
 .product-image {
     grid-area: image;
+}
+
+.product-title {
+    grid-area: title;
 }
 
 .product-text {
