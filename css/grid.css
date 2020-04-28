@@ -132,6 +132,59 @@
 
 * {  box-sizing: border-box; }
 
+* {
+    margin-top: 0;
+  }
+  
+  .nurse-grid .care-admin-grid .sys-admin-grid {
+    display: grid;
+    grid-template-areas: "title"
+                         "illo" 
+                         "content";
+    grid-gap: 2rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 120px 1fr;
+    padding: 0 10%;
+    width: 80%;
+  }
+  
+  @media (min-width: 500px) {
+    .nurse-grid {
+      display: grid;
+      grid-template-areas: ". title"
+                           "illo content";
+      grid-gap: 2rem;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 120px 1fr;
+      padding: 0 10%;
+      width: 80%;
+    }
+  }
+
+  @media (min-width: 500px) {
+      .care-admin-grid {
+        grid-template-areas: ". title"
+        "content illo";
+      }
+  }
+  
+  .title {
+    grid-area: title;
+    margin-top: 3rem;
+  }
+  
+  .content {
+    grid-area: content;
+  }
+  
+  .illo {
+    grid-area: illo;
+  }
+  
+  .full {
+    width: 100%;
+  }
+
 
 /* Better to style based in classes for customization ease? */
 
