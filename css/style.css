@@ -319,6 +319,13 @@ section h5 {
     }
 }
 
+/* what I tried to get mobile text down: */
+/* @media (min-width: 530px {
+    .mobile-intro {
+        font-size: 26px;
+    }
+} */
+
 
 .care-hero {
     background-image: url(/images/carepoint-hero-2x.png);
