@@ -289,6 +289,11 @@ section h5 {
 
 }
 
+.background-btn.cell-btn {
+    background-image: linear-gradient(to right, #554AAD 0%, #291568 25%, #B72D5B 50%, #291568 75%, #554AAD 100%);
+
+}
+
 .background-btn {
     width: 300px;
 }
@@ -334,6 +339,13 @@ section h5 {
     background-size: 50%;
     /* background-position: right 105px bottom 20px; */
     background-color: #E8F3FF;
+}
+
+.cell-hero {
+    background-image: url(/images/cellwize-hero.png);
+    background-size: 50%;
+    /* background-position: right 105px bottom 20px; */
+    background-color: #291568;
 }
 
 .care-hero .intro {
