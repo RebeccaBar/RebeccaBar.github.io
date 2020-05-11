@@ -302,7 +302,7 @@ section h5 {
     margin-bottom: 40px;
 }
 
-.octa-hero, .care-hero {
+.octa-hero, .care-hero, .cell-hero {
     margin-bottom: 40px;
     background-image: url(/images/octa-mockups.png);
     background-size: 70%;
@@ -343,13 +343,18 @@ section h5 {
 
 .cell-hero {
     background-image: url(/images/cellwize-hero.png);
-    background-size: 50%;
-    /* background-position: right 105px bottom 20px; */
+    background-size: 60%;
+    background-position: right 25px bottom 100px;
     background-color: #291568;
 }
 
 .care-hero .intro {
     width: 100%;
+}
+
+.cell-hero .intro {
+    width: 100%;
+    color: #fff;
 }
 
 .bio-back {
