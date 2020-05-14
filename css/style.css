@@ -37,7 +37,7 @@ h6 {
     text-transform: uppercase
 }
 
-.full-width {
+.full .full-width {
     width: 100%;
 }
 
@@ -290,7 +290,7 @@ section h5 {
 }
 
 .background-btn.cell-btn {
-    background-image: linear-gradient(to right, #FC9927 0%, #A82B5D 25%, #5348AA 50%, #A82B5D 75%, #FC9927 100%);
+    background-image: linear-gradient(to right, #FAAA4F 0%, #FC773F 25%, #FF4C00 50%, #FC773F 75%, #FAAA4F 100%);
 
 }
 
@@ -316,6 +316,12 @@ section h5 {
     background-color: #eeeeee;
 }
 
+.hero {
+    background-color: 291568;
+  height: 80vh;
+  width: 100%;
+}
+
 .hero-mobile {
     display: block;
 }
@@ -325,6 +331,13 @@ section h5 {
         display: none;
     }
 }
+
+@media all and (min-width: 500px) {
+    .hero-grid {
+        grid-template-areas: "left right";  
+        grid-template-columns: 1fr 2fr;
+      } 
+  }
 
 /* what I tried to get mobile text down: */
 /* @media (min-width: 530px {
@@ -661,6 +674,16 @@ header {
 #work {
     transition: all 2s;
 }
+
+.left {
+    background-color: none;
+    grid-area: left;
+    padding: 1rem;
+ }
+ 
+ .right {
+    grid-area: right;
+ }
 
 .mobile, .small {
     display: none;

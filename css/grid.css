@@ -24,6 +24,17 @@
     /* padding-bottom: 180px; */
 }
 
+.hero-grid {
+        display: grid;
+        grid-template-areas: "right" 
+                             "left";
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        padding-top: 5rem;
+        width: 70%;
+        margin: 0 auto;
+}
+
 .sili-container, .images-container {
     padding: 0 15vw;
 }

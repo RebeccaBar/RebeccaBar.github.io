@@ -20,8 +20,20 @@
                     <li><a href="mailto:rebecca@rebeccabar.design?subject=Portfolio" target="_blank" class="main-nav__link">contact</a></li>
                 </ul>
             </header>
+            <section class="hero">
+                <div class="hero-grid">
+                    <div class="left">
+                        <img class="three-quarter" src="/images/cellwize-logo.png">
+                            <p class="intro">RAN Automation that<br/>accelerates the<br/>deployment of your<br/>5G network with ease.</p>
+                            <a class="biglink background-herolink background-btn cell-btn" href="https://www.figma.com/proto/t8RoQTJUYfPyZAyUOomVLT/CellWize-Wireframing?node-id=173868%3A1&scaling=min-zoom" target="_blank">View Prototype</a>
+                    </div>
+                    <div class="right">
+                        <img class="half hero-mobile" src="/images/cellwize-hero.png">
+                    </div>
+                </div>
+            </section>
             <section class="cell-hero">
-                <div class="overlay">
+                <div class="left-hero">
                     <div class="main-content wide-container">
                         <div>
                             <img class="half hero-mobile" src="/images/cellwize-hero.png">
@@ -79,189 +91,93 @@
                 <h3>users - what are their pain points?</h3>
                 <p>There were three users to take into consideration:</p>
                 <!-- <img class="full" src="../images/cs-dash-1.png" alt="Screenshot of a Caresight dashboard"> -->
-            </section>
-            <!-- personas -->
-            <section>
-                <h3>the users</h3>
-                <p>Hospitals are extremely high-stress environments, and are becoming increasingly more data-driven.
-                    This particular project had three user types to design for.</p>
-                <p>Two of them, Nurses and Healthcare Administrators are split-attention users. Due to the nature of
-                    their job, they cannot dedicate all of their attention to the interface that they are using.
-                    Therefore, the majority of design decisions were made with them in mind.</p>
-                <p>The client requested one universal home screen that will work simultaneousely for the information
-                    each user would need (and are privy to) see.</p>
                 <div class="twoCol-center persona-nurse">
+                <div class="twoCol-center persona-healthadmin">
                     <div class="product-title">
-                        <p class="persona">NURSES</p>
-                        <p>HIGH EMPATHY | HIGH STRESS | HANDS-ON</p>
+                        <p class="persona">COMPANY STAKEHOLDERS</p>
                     </div>
                     <div class="product-text">
-                        <p>Nurses typically have a heightened sense of empathy and sensitivity to other’s needs.</p>
-                        <p>On a day-to-day basis, they’re forced to make difficult and potentially life-altering decisions on-the-fly.</p>
-                        <p>Recent reports (05/2019), show that nearly 30% of all nurses suffer from post-traumatic stress disorder (PTSD).</p>
-                        <p>To help reduce their stress, our goal was to help them find the information they need fast, and provide some personal, conversational writing that would give them some sense of appreciation and caring from their superiors.</p>
+                        <p>Above all, companies upgrading to 5G technology need speed. High competition in this space demands that they adapt fast. A common frustration of theirs is that they need to offer 5G to their customers, but their revenue from it is staggeringly low. (This is also due to the competition in this space).</p>
                     </div>
-                    <img class="full product-image" src="../images/cs-illus-2-2x.png"/>
+                    <img class="full product-image" src="../images/c-stakeholders-illus.png"/>
                 </div>
                 <div class="twoCol-center persona-healthadmin">
                     <div class="product-title">
-                        <p class="persona">HEALTHCARE ADMINS</p>
-                        <p>MANAGEMENT | LOCAL</p>
+                        <p class="persona">DEVELOPERS</p>
                     </div>
                     <div class="product-text">
-                        <p>Like Nurses, Healthcare Admins have reported that their sense of empathy is what started them in the field.</p>
-                        <p>However, not working directly with patients, it’s easier for them to detach from a given situation and make the cool decisions that often need to be made.</p>
-                        <p>Their duties include coordinating information between clinicians and facilities, patients, and other key personnel.</p>
-                        <p>Admin work is detailed and difficult. It is not uncommon for admins to work long after their allotted shifts and hours, so it’s imperative that their tools are efficient and straightforward.</p>
+                        <p>Cellwize’s customization helps with adaptation, and choosing only what they need has the potential to ease and shorten the process for developers and cut their users cost.</p>
                     </div>
-                    <img class="full product-image" src="../images/cs-illus-3-2x.png" />
+                    <img class="full product-image" src="../images/c-devs-illus.png"/>
                 </div>
-                <div class="twoCol-center persona-sysadmin">
+                <div class="twoCol-center persona-healthadmin">
                     <div class="product-title">
-                        <p class="persona">SYS ADMINS</p>
-                            <p>CARESIGHT | BACKEND</p>
+                        <p class="persona">INVESTORS</p>
                     </div>
                     <div class="product-text">
-                        <p>Caresight offers a lot of customization to their customers.</p>
-                        <p>Their Sys Admins need to be able to log in and read data from all user activity in order to address any issues that come up, as well as understand how to better the solution for their customer.</p>
+                        <p>Investors visiting Cellwize’s site will be looking for key company information, like what events they’re attending, and to learn more about their team and background. It’ll be very important to know who Cellwize’s customers are, and how much of an emphasis Cellwize puts on their customers and user experience. While building the site, we put an emphasis on company transparency, tone, and level of professionalism.</p>
                     </div>
-                    <img class="full product-image" src="../images/cs-illus-sys-2x.png"/>
+                    <img class="full product-image" src="../images/c-investors-illus.png"/>
                 </div>
+            </section>
+            <!-- information architecture -->
+            <section>
+                <h3>information architecture</h3>
+                <img class="full" src="../images/cell-sitemap-1.png" alt="screenshot of part of the Cellwize site map">
+                <p class="italic">Screenshot of part of the Cellwize Site Map. Part of my work for Cellwize was to divide and name the services they offer.</p>
+                <p>Since the users are diverse, there was a challenge in helping Cellwize decide what their main CTA will be. Ultimately, we decided on “Request a Demo”. The plan was twofold. We wanted to direct customers to the sales team, while showing investors that</p>
+                <p>Cellwize also wasn’t sure how to best communcate their product descriptions from the homepage, and push users in the right direction. Since their parent product, Chime, is customizable, it became a platform from which their users can add separate “solutions” to.</p>
+                <div class="button-margin">
+                    <a class="biglink background-herolink background-btn cell-btn"
+                        href="https://www.figma.com/file/t8RoQTJUYfPyZAyUOomVLT/CellWize-Wireframing?node-id=173750%3A990"
+                        target="_blank">View Full Site Map</a>
+                </div>
+            </section>
+            <!-- second sitemap section -->
+            <section>
+                <img class="full" src="../images/cell-sitemap-2.png"
+                    alt="image of branding hierarchy designer received from the agency">
+                <p class="italic">This is the brand key that the agency I was hired by put together. It represents the hierarchy of some of the information they wanted me to reference for the wireframing.</p>
+            </section>
+            <!-- wireframes -->
+            <section>
+                <h3>wireframes</h3>
+                <img class="flows" src="../images/cell-wire-background.png">
+                <p>One of the primary goals was to present Cellwize as an upscale organization in the 5G cellular ecosystem. The previous site was cluttered, so I focused on simplifying the information architecture.</p>
+                <p>Our research highlighted the need to emphasize content discoverability for both our users and stakeholders. With this in mind, I constructed the wireframes with specific user personas in mind.</p>
+                <p>Finally, to help boost our site SEO, we created a way to easily add blog post links to the footer of each page.</p>
+                <img class="three-quarter" src="../images/cell-footer-illus.png">
             </section>
 
-            <div>
-                <p>We wanted to solve this problem without resorting to error message and frustraing the user with
-                    re-directions. Here are some of the solutions we tried:</p>
-                <ul class="stories">
-                    <li>A Wizard Nav explaining the parent-child relationships</li>
-                    <li>An Infographic demonstrating the navigation steps</li>
-                    <li>Adding quantity numbers to each parent in the left-rail</li>
-                    <li>Making items in the left-rail hoverable to show dropdowns allowing the user to choose all
-                        relationships at once</li>
-                    <li>A right-panel modal that appears when user clicks on a child relationship too soon, prompting
-                        them to choose the proper parent relationships first.</li>
-                </ul>
-                <p>Ultimately, all of these paths were too long and not intuitive enough.</p>
-                <div class="button-margin">
-                    <a class="biglink background-herolink background-btn cs-btn"
-                        href="https://www.figma.com/file/BsZ4vu5ZnfBhNVHbyM0vGi/Failed-Carepoint-Screens?node-id=0%3A1"
-                        target="_blank">See Alternate Solutions</a>
-                </div>
-            </div>
-            </section>
-            <!-- before/after -->
-            <section>
-                <p class="persona">BEFORE - PROBLEM</p>
-                <p>Four screens for adding or editing a floor and/or a room to the system</p>
-                <img class="full" src="../images/cs-screen-before-2x.png"
-                    alt="images of floors/rooms screens before the solution">
-                <p class="persona">AFTER - SOLUTION</p>
-                <p>One, intuitive screen for editing and/or adding all floors and rooms</p>
-                <img class="full" src="../images/cs-screen-after-2x.png"
-                    alt="images of the solution to the floors/rooms dilemma" />
-            </section>
             <!-- ux writing -->
             <section>
                 <h3>(ux) writing</h3>
-                <p>We added helpful suggestions in each table and search fields so (our split-attention) users
-                    wouldn’t have to think about what information they might want to input for future reference.
-                </p>
-                <img class="full" src="../images/cs-writing-1-2x.png"
-                    alt="Screenshot of microcopy for search and descriptions">
-                <div class="twoCol-center inside-space">
-                    <div class="prob">
-                        <div>
-                            <p>We also changed the tone of the microcopy throughout the product to be
-                                encouraging and helpful. Instead of “Error: Add floor first”, we used an
-                                easy-to-read, nuetral and polite “Please add a new floor first”.</p>
-                        </div>
-                    </div>
-                    <img class="full" src="../images/cs-writing-2-2x.png" />
-                </div>
-                <div class="twoCol-center product-area inside-space">
-                    <img class="full product-image" src="../images/cs-writing-3-2x.png"
-                        alt="Screenshot of microcopy for search and descriptions" />
-                    <div class="prod product-text">
-                        <div class="content-container">
-                            <p>We wanted to provide some personalized text for healthcare users. The goal in
-                                welcoming each user by name was to further ease their stress by reiterating that
-                                they are in the right place at the right time, adding some more positivity to
-                                their workday<p>
-                        </div>
-                    </div>
-                </div>
+                <img class="three-quarter" src="../images/writing-infograph.png">                
+                <p>Cellwize’s edge was that they take away the complexity of adapting 5G. We wanted to leverage the content of the website to position them as experts in the market.</p>
+                <img class="three-quarter" src="../images/writing-2.png"> 
+                <p>It was important to the client to impress investors and attract big-name clients. So, I opted for a knowledgeable but simple, authorative tone for the microcopy. For buttons, I didn’t stray from anything other than the expected, but I used headers above them to attract interest and .....</p> 
+                <img class="three-quarter" src="../images/writing-3.png"> 
+                <p>I also opted for a sense of open-ness and transparency to help build trust, and threw in some refreshing, “nerd-like” copy that would appeal to developers.</p>
+                <img class="three-quarter" src="../images/writing-4.png"> 
             </section>
-            <!-- design system -->
+            <!-- what i learned -->
             <section>
-                <h4>Design System</h4>>
-                <img class="full" src="../images/cs-ui-1-2x.png" alt="Screenshot of the revised design system">
-                <p class="italic">Revised UI components for Carepoint</p>
-                <p>The UI Design system we inherited had many things we didn’t need. A lot of the components
-                    were copied and pasted from external templates and libraries that weren’t relevant to the
-                    project.</p>
+                <h3>what i learned</h3>
+                <img class="half" src="../images/startup-illus.png">
+                <p>This project taught me a lot about the world of young Startups and their visions and dreams.</p>
+                <p>Part of what I was hired by this agency for was to help guide the client to make good UX design decisions. Another challenge was to help them build a site that would work for them now and in the future. The client was moving into new offices and would be hiring a photographer to take great pictures of the office and team, but only a couple more months down the road.</p>
+                <p>And in the middle of our process with them, the Caronavirus hit, and their resources were hit hard.</p>
+                <!-- <div class="button-margin">
+                    <a class="biglink background-herolink background-btn cell-btn"
+                        href="https://www.cellwize.com/"
+                        target="_blank">View Finished Site</a>
+                </div> -->
             </section>
             <section>
-                <h5>CHANGES WE MADE</h5>
-                <p>Working with and mentoring two junior designers, I helped get the design system in shape to
-                    ship to the client.</p>
-                <ul class="stories">
-                    <li>We moved to a cleaner 8px grid</li>
-                    <li>We gave the tables more space, adding a relaxed row height of 64px high to accommodate
-                        text wraps</li>
-                    <li>Moved from grey background to white for tables</li>
-                    <li>Adjusted text sizes and weights to reflect the 8px grid and the new information
-                        architecture</li>
-                    <li>Tested colors for accessibility, changed from ….</li>
-                    <li>Doubled on UI communication - changed microtext to reflect error color as well</li>
-                    <li>Made sure iconography was consistent and in good quality to export. Not pixelated like
-                        what e inherited,</li>
-                </ul>
-            </section>
-            <!-- what I learned -->
-            <section>
-                    <div class="twoCol-center persona-nurse">
-                            <div class="product-title">
-                                <h3>what i learned</h3>
-                            </div>
-                            <div class="product-text">
-                                <p>This project was under a tight deadline which forced me to prioritize the bigger
-                                        picture. Once that was addressed, we could come back and address the details
-                                        that could be adjusted later.</p>
-                                <p>I learned a lot about timing and how ongoing deliberation can affect the overall build 
-                                        of a product on a short notice.</p>
-                                <p>I also learned a lot about project planning. Being brought into the project
-                                        relatively late can be a disadvantage, but that doesn’t mean that the outcome
-                                        will be less than stellar when we focus on prioritizing user needs and use our
-                                        resources and dedication towards that goal.</p>
-                            </div>
-                            <img class="full product-image" src="../images/illus-learned-2x.png"/>
-                        </div>
-                <div class="twoCol-center persona-healthadmin">
-                        <div class="product-title">
-                            <h3>leadership</h3>
-                        </div>
-                        <div class="product-text">
-                            <p>While I’ve directed remote teams before, this was the first time I was
-                               asked to mentor other designers while guiding them through the project.</p>
-                            <p>This included creating user personas and flows the team and demonstrate how to 
-                               make user-centered design decisions.</p>
-                            <p>Guiding the team to work together and providing them with the
-                               confidence they needed was an exercise in balance.</p>
-                            <p>I wanted to trust these designers,
-                               but they were hourly employees not on my own payroll. A big portion of my job was to 
-                               provide the guidance they needed, while also protecting the agency owner and making sure 
-                               the project was up-to-par for the client.</p>
-                        </div>
-                        <img class="full product-image" src="../images/illus-leadership-2x.png" />
-                    </div>
-            </section>
-            <section>
-                <p>As with every project, I am truly grateful to have been given the opportunity to learn and
-                    grow as a person and as a designer. I look forward to future collaboration with the team,
-                    should I be needed again.</p>
                 <a href="../index.html" class="main-nav__link">return home</a>
             </section>
         </div>
+             <!-- footer -->
         <footer class="footer wide-container">
             <div class="footer-content">
                 <div class="copyright">
