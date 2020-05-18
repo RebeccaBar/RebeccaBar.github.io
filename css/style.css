@@ -224,6 +224,26 @@ section h5 {
     width: 31%;
 }
 
+.cell-user-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+}
+
+@media (min-width: 530px) {
+    .cell-user-grid {
+        grid-template-columns: 35% 65%;
+    }
+}
+
+.wide-wire {
+    display: flex;
+    background-color: green;
+    height: 10rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
 .flows {
     background-image: url(../images/flows-img-big.png);
 }
