@@ -361,7 +361,7 @@ section h5 {
 @media all and (min-width: 500px) {
     .hero-grid {
         grid-template-areas: "left right";  
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 3fr;
       } 
   }
 
@@ -701,17 +701,19 @@ header {
     transition: all 2s;
 }
 
-.left {
+.cell-hero-left {
     background-color: none;
     grid-area: left;
     padding: 1rem;
  }
 
- .left .intro {
+ .cell-hero-left .intro {
+     width: 100%;
      font-size: 1.5rem;
+     color: white;
  }
  
- .right {
+ .cell-hero-right {
     grid-area: right;
  }
 

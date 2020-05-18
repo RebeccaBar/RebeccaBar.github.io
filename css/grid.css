@@ -30,10 +30,15 @@
                              "left";
         grid-template-columns: 1fr;
         grid-gap: 2rem;
-        padding-top: 5rem;
-        width: 70%;
+        padding: 2rem 2vw;
         margin: 0 auto;
 }
+
+@media (min-width: 500px) {
+    .hero-grid {
+        padding: 2rem 10vw;
+}
+  }
 
 .sili-container, .images-container {
     padding: 0 15vw;
