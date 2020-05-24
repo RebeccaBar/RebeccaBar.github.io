@@ -336,17 +336,99 @@ section h5 {
     background-color: #eeeeee;
 }
 
+.hero-flex-wrapper {
+    display: flex;
+    padding: 2rem 7rem;
+    justify-content: space-between;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1700px;
+}
+
 .care-hero {
     margin-bottom: 40px;
-    background-size: 70%;
-    height: 80vh;
+    height: 575px;
     min-height: 456px;
-    overflow: hidden;
     padding: 0 0;
-    background-position: right;
-    background-color: none;
-    background-repeat: no-repeat;
-    background-color: #eeeeee;
+    background-color: #E8F3FF;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.care-hero-logo {
+    width: 357px;
+    padding-bottom: 15px;
+}
+
+.flex-hero-left {
+    padding: 1rem;
+    width: 476px;
+}
+
+.flex-hero-right {
+    width: 864px;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.cellwize-description {
+    color: #f0f0f0;
+    width: auto;
+}
+
+.cellwize-logo {
+    width: 300px;
+}
+
+.cellwize-hero-img {
+    width: 790px;
+}
+
+@media (max-width: 1380px) {
+    .hero-flex-wrapper {
+        padding: 2rem 5rem;
+    }
+
+    .flex-hero-right {
+        width: 700px;
+    }
+
+    .cellwize-hero-img {
+        width: 600px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .hero-flex-wrapper {
+        padding: 2rem;
+    }
+
+    .cellwize-hero-img {
+        width: 500px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .hero-flex-wrapper {
+        padding: 2rem 1rem;
+        flex-direction: column;
+    }
+
+    .care-hero {
+        height: 780px;
+    }
+
+    .flex-hero-left {
+        order: 2
+    }
+
+    .flex-hero-right, .cellwize-hero-img {
+        width: 500px;
+    }
+
+
 }
 
 .hero {
@@ -361,9 +443,9 @@ section h5 {
 
 .hero-grid {
     grid-template-areas: "right"
-                         "left";  
+                         "left";
     grid-template-columns: 1fr;
-} 
+}
 
 @media (min-width: 530px) {
     .hero-mobile {
@@ -373,9 +455,9 @@ section h5 {
 
 @media all and (min-width: 500px) {
     .hero-grid {
-        grid-template-areas: "left right";  
+        grid-template-areas: "left right";
         grid-template-columns: 1fr 3fr;
-      } 
+      }
   }
 
 /* what I tried to get mobile text down: */
@@ -385,13 +467,6 @@ section h5 {
     }
 } */
 
-
-.care-hero {
-    background-image: url(/images/carepoint-hero-2x.png);
-    background-size: 50%;
-    /* background-position: right 105px bottom 20px; */
-    background-color: #E8F3FF;
-}
 
 .cell-hero {
     background-image: url(/images/cellwize-hero.png);
@@ -725,7 +800,7 @@ header {
      font-size: 1.5rem;
      color: white;
  }
- 
+
  .cell-hero-right {
     grid-area: right;
  }
