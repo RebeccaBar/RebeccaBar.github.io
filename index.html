@@ -20,16 +20,21 @@
                     <li><a href="https://medium.com/@rebeccabardesign" target="_blank" class="main-nav__link">writing</a></li>
                     <li><a href="mailto:rebecca@rebeccabar.design?subject=Portfolio" class="main-nav__link">contact</a></li>
                 </ul>
-                <ul class="main-nav small">
-                    <li>Mobile
-                        <ul class="dropdown">
-                            <a href="#work" class="main-nav__link"><li>work</li></a>
-                            <a href="../bio.html" class="main-nav__link"><li>about</li></a>
-                            <a href="https://medium.com/@rebeccabardesign" target="_blank" class="main-nav__link"><li>writing</li></a>
-                            <a href="mailto:rebecca@rebeccabar.design?subject=Portfolio" class="main-nav__link"><li>contact</li></a>
-                        </ul>
-                    </li>
-                </ul>
+
+                <nav role='navigation' class="mobile">
+                    <div id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <a href="#work" class="main-nav__link"><li>work</li></a>
+                        <a href="../bio.html" class="main-nav__link"><li>about</li></a>
+                        <a href="https://medium.com/@rebeccabardesign" target="_blank" class="main-nav__link"><li>writing</li></a>
+                        <a href="mailto:rebecca@rebeccabar.design?subject=Portfolio" class="main-nav__link"><li>contact</li></a>
+                    </ul>
+                    </div>
+                </nav>
             </header>
             <div class="intro-section wide-container hero-container">
                  <div>
@@ -49,10 +54,23 @@
                 <div class="flex-hero-left">
                     <img class="care-hero-logo" src="/images/carepoint-logo-2x.png" />
                     <p class="intro">Helping nurses & healthcare admins monitor hospital info, video & logistics</p>
-                    <a class="biglink background-herolink background-btn cs-btn" href="#CaresightWork" target="_blank">Project Overview</a>
+                    <a class="biglink background-herolink background-btn cs-btn" href="case-study/carepoint.html">Project Overview</a>
                 </div>
                 <div class="flex-hero-right">
                     <img class="full" src="/images/carepoint-hero-2x.png"/>
+                </div>
+            </div>
+        </section>
+
+        <section class="hero cellwize-hero">
+            <div class="hero-flex-wrapper">
+                <div class="flex-hero-left">
+                    <img class="cellwize-logo" src="/images/cellwize-logo.png" />
+                    <p class="intro cellwize-description">RAN Automation that accelerates the deployment of your 5G network with ease.</p>
+                    <a class="biglink background-herolink background-btn cell-btn" href="case-study/cellwize.html" target="_blank">View Case Study</a>
+                </div>
+                <div class="flex-hero-right cellwize-hero-img">
+                    <img class="full" src="/images/cellwize-hero.png" />
                 </div>
             </div>
         </section>
