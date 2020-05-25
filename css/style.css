@@ -239,10 +239,14 @@ section h5 {
 }
 
 .wide-wire {
-    display: flex;
-    background-color: green;
-    height: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* background-color: green; */
     margin-bottom: 2rem;
+    width: 100%;
+}
+
+.wide-wire img {
     width: 100%;
 }
 
