@@ -308,12 +308,14 @@ section h5 {
 
 .background-btn.cs-btn {
     background-image: linear-gradient(to right, #27A8E2 0%, #27A8E2 25%, #6789FF 50%, #27A8E2 75%, #27A8E2 100%);
-
 }
 
 .background-btn.cell-btn {
     background-image: linear-gradient(to right, #FAAA4F 0%, #FC773F 25%, #FF4C00 50%, #FC773F 75%, #FAAA4F 100%);
+}
 
+.background-btn.myclick-btn {
+    background-image: linear-gradient(to right, #4D814A 0%, #3C5B3A 25%, #222321 50%, #3C5B3A 75%, #4D814A 100%);
 }
 
 .background-btn {
@@ -373,6 +375,10 @@ section h5 {
     display: flex;
     align-items: center;
     padding-left: 1rem;
+}
+
+.myclick-hero {
+   background-color: #FFFFFF;
 }
 
 .cellwize-hero {
