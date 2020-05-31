@@ -219,6 +219,10 @@ section h5 {
     width: 66%;
 }
 
+.logos-myclick-competition {
+    width: 100%;
+}
+
 .logos img {
     align-self: center;
     margin-right: 2%;
@@ -378,11 +382,24 @@ section h5 {
     width: 864px;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding-left: 1rem;
 }
 
 .myclick-hero {
    background-color: #FFFFFF;
+}
+
+.myclick-hero-brochure {
+    width: 100%;
+}
+
+
+@media (min-width: 1460px) {
+    /* Makes sure it doesn't get cut off */
+    .myclick-hero-brochure {
+        width: 90%;
+    }
 }
 
 .cellwize-hero {
@@ -1188,3 +1205,36 @@ header {
    transform: scale(1.0, 1.0);
    opacity: 1;
  }
+
+ /* Topic section */
+
+ .topic-section__wrapper {
+     display: flex;
+ }
+
+ .topic-section {
+    margin-right: 1rem;
+    min-width: 150px;
+    max-width: 350px;
+}
+
+ .topic-section__header {
+
+}
+
+@media (max-width: 1250px) {
+    .topic-section__wrapper {
+       flex-direction: column;
+    }
+}
+
+.gray-bg-section {
+    padding: 2rem 1rem;
+    background: #eee;
+    margin-bottom: 1rem;
+}
+
+.long-heading {
+    margin-bottom: 20px;
+    line-height: 2rem;
+}
