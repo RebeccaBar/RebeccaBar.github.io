@@ -115,6 +115,27 @@ h3 {
     text-transform: lowercase;
 }
 
+.quote {  
+    border-top: 10px solid #878787;
+    margin-top: 20px;
+    border-bottom: 1px solid #878787;
+    padding: 0 10vw; 
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .quote h3 {
+    font-size: 22px;
+    line-height: 1.8;
+ }
+ 
+ .left-quote img {
+    
+
+}
+
+
 section h3 {
     font-size: 24px;
     font-weight: 700;
