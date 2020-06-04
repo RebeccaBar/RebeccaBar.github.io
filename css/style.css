@@ -126,6 +126,29 @@ h3 {
     grid-gap: 20px;
   }
 
+  .quote-img {
+    background-image: url("../images/aaron-pic-2x.png");
+    background-size: cover;
+    border-radius: 150px;
+    height: 180px;
+    width: 180px;
+  }
+  
+  /* .child h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 6rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .child h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+  } */
+  
+  .quote-img img {
+    width: 100%;
+  }
+
   .quote h3 {
     font-size: 22px;
     line-height: 1.8;
