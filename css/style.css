@@ -7,8 +7,16 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+}
+
+#main-container {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
     /* Make sure the hamburger menu is hidden on mobile */
     overflow-x: hidden;
+    position: relative;
 }
 
 h1 {
@@ -115,7 +123,7 @@ h3 {
     text-transform: lowercase;
 }
 
-.quote {  
+.quote {
     border-top: 10px solid #878787;
     border-bottom: 1px solid #878787;
     margin-top: 40px;
@@ -148,19 +156,19 @@ h3 {
     border-radius: 150px;
     height: 180px;
     width: 180px;
-}
-  
+  }
+
   /* .child h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 6rem;
     margin-bottom: 1.5rem;
   }
-  
+
   .child h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 2.5rem;
   } */
-  
+
   .quote-img img {
     width: 100%;
   }
@@ -175,7 +183,6 @@ h3 {
     /* margin-top: 20px; */
     text-align: center;
  }
- 
 section h3 {
     font-size: 24px;
     font-weight: 700;
@@ -184,7 +191,6 @@ section h3 {
 
 h3.light {
     font-weight: 400;
-    color: #737373;
     font-size: 24px;
 }
 
@@ -204,8 +210,8 @@ section h5 {
 
 .intro {
     color:#737373;
-    font-size: 26px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 600;
     padding-bottom: 20px;
     padding-top: 20px;
     line-height: 1.4;
@@ -226,6 +232,10 @@ section h5 {
     background-color: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
+}
+
+.logo-home {
+font-size: 32px;
 }
 
 .profile-sketch {
@@ -399,7 +409,7 @@ section h5 {
     margin-bottom: 40px;
     background-image: url(/images/octa-mockups.png);
     background-size: 70%;
-    height: 80vh;
+    height: 60vh;
     min-height: 456px;
     overflow: hidden;
     padding: 0 0;
@@ -434,9 +444,43 @@ section h5 {
     padding-bottom: 15px;
 }
 
-.flex-hero-left {
+.flex-hero-home-left {
     padding: 1rem;
-    width: 476px;
+    width: 40%;
+    color: #737373;
+}
+
+.flex-hero-home-left h2 {
+    font-size: 40px;
+    padding: 0 0 20px 0;
+    border-bottom: none;
+}
+
+.flex-hero-home-left h3 {
+    font-size: 20px;
+    color: #737373;
+    font-weight: 400;
+}
+
+.flex-hero-home-left h4 {
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+.flex-hero-home-left h4.light {
+    font-weight: 400;
+}
+
+.flex-hero-home-left h5 {
+    font-size: 14px;
+    font-style: italic;
+    text-transform: initial;
+    padding: 0 0 0 0;
+    line-height: 1.4;
+    background: none;
+    margin-bottom: 20px;
+
 }
 
 .flex-hero-right {
@@ -465,6 +509,15 @@ section h5 {
 
 .cellwize-hero {
     margin-bottom: 40px;
+    color: #fff;
+}
+
+.cellwize-hero .flex-hero-home-left {
+    color: #fff;
+}
+
+.cellwize-hero h3 {
+    color: #fff;
 }
 
 .cellwize-description {
@@ -518,8 +571,9 @@ section h5 {
         height: 780px;
     }
 
-    .flex-hero-left {
-        order: 2
+    .flex-hero-home-left {
+        order: 2;
+        width: 100%;
     }
 
     .flex-hero-right, .cellwize-hero-img {
@@ -534,6 +588,10 @@ section h5 {
 
     .flex-hero-right, .cellwize-hero-img {
         width: 450px;
+    }
+
+    .flex-hero-home-left {
+        width: 100%;
     }
 }
 
@@ -607,10 +665,12 @@ section h5 {
         .octa-hero {
             background-size: 180%;
             background-position: center;
+            height: 80vh;
+
         }
 
         .overlay {
-            background-color: rgba(196, 196, 196, .9);
+            background-color: rgba(255,255,255, .9);
         }
 
         .care-hero {
@@ -917,10 +977,6 @@ header {
      color: #737373;
  }
 
- .care-hero-right {
-
- }
-
 .mobile, .small {
     display: none;
 }
@@ -1177,7 +1233,7 @@ header {
    margin-bottom: 5px;
    position: relative;
 
-   background: #cdcdcd;
+   background: #555555;
    border-radius: 3px;
 
    z-index: 1;
@@ -1277,10 +1333,6 @@ header {
     margin-right: 1rem;
     min-width: 150px;
     max-width: 350px;
-}
-
- .topic-section__header {
-
 }
 
 @media (max-width: 1250px) {
