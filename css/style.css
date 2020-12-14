@@ -409,8 +409,6 @@ font-size: 32px;
     margin-bottom: 40px;
     background-image: url(/images/octa-mockups.png);
     background-size: 70%;
-    height: 60vh;
-    min-height: 456px;
     overflow: hidden;
     padding: 0 0;
     background-position: right;
@@ -450,29 +448,35 @@ font-size: 32px;
     color: #737373;
 }
 
-.flex-hero-home-left h2 {
+.flex-hero-home-left-half {
+    padding: 1rem;
+    width: 100%;
+    color: #737373;
+}
+
+.flex-hero-home-left h2, .flex-hero-home-left-half h2 {
     font-size: 40px;
     padding: 0 0 20px 0;
     border-bottom: none;
 }
 
-.flex-hero-home-left h3 {
+.flex-hero-home-left h3, .flex-hero-home-left-half h3 {
     font-size: 20px;
     color: #737373;
     font-weight: 400;
 }
 
-.flex-hero-home-left h4 {
+.flex-hero-home-left h4, .flex-hero-home-left-half h4 {
     font-size: 18px;
     line-height: 1.4;
     font-weight: 600;
 }
 
-.flex-hero-home-left h4.light {
+.flex-hero-home-left h4.light, .flex-hero-home-left-half h4.light{
     font-weight: 400;
 }
 
-.flex-hero-home-left h5 {
+.flex-hero-home-left h5, .flex-hero-home-left-half h5 {
     font-size: 14px;
     font-style: italic;
     text-transform: initial;
@@ -653,6 +657,10 @@ font-size: 32px;
     padding-top: 20px;
 }
 
+.overlay-sili {
+    background-color: rgba(255,255,255, .9);
+    width: 50%;
+}
 
 @media (max-width: 900px) {
     .octa-hero {
@@ -665,8 +673,11 @@ font-size: 32px;
         .octa-hero {
             background-size: 180%;
             background-position: center;
-            height: 80vh;
+        }
 
+        .overlay-sili {
+            background-color: rgba(255,255,255, .9);
+            width: 100%;
         }
 
         .overlay {
@@ -1058,8 +1069,6 @@ header {
     margin-bottom: 40px;
     background-image: url(/images/silicandy-hero-1.png);
     background-size: cover;
-    height: 80vh;
-    min-height: 456px;
     overflow: hidden;
     padding: 0 0;
     background-color: none;
