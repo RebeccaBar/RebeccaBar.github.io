@@ -284,6 +284,8 @@ font-size: 32px;
     background: #FFFFFF;
 }
 
+
+
 .logos {
     display: flex;
     margin-bottom: 10px;
@@ -1359,4 +1361,49 @@ header {
 .long-heading {
     margin-bottom: 20px;
     line-height: 2rem;
+}
+
+
+
+/* Zevy Css */
+
+#aboutPic{
+  width:40%;
+  margin: 3vmin 0;
+}
+
+#aboutHeader{
+  font: italic 25px "Montserrat";
+  font-weight: 500;
+  color: #737373;
+}
+
+.sectionHeader{
+  font: normal 24px "Montserrat Alternates", "Montserrat";
+  color: #333333;
+  font-weight: 700;
+  
+}
+
+.aboutSectionFooter{
+font-family: Montserrat Alternates;
+font-style: italic;
+font-weight: bold;
+font-size: 20px;
+color: #6C63FF;
+}
+
+.aboutSectionLink{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+color: #C94062;
+}
+
+#aboutcontainer{
+    background-color: #FFFFFF;
+    padding: 0 30vw;
+    overflow-x: hidden;
 }
