@@ -1378,9 +1378,10 @@ header {
 }
 
 #aboutHeader{
-  font: italic 25px "Montserrat";
+  font: 25px "Montserrat";
   font-weight: 500;
   color: #737373;
+  margin-bottom: 0;
 }
 
 .sectionHeader{
@@ -1396,6 +1397,7 @@ font-style: italic;
 font-weight: bold;
 font-size: 20px;
 color: #6C63FF;
+margin: 0;
 }
 
 .aboutSectionLink{
@@ -1407,8 +1409,16 @@ line-height: 22px;
 color: #C94062;
 }
 
+.aboutSectionLink:hover{
+  color: #A83250;
+}
+
 #aboutcontainer{
     background-color: #FFFFFF;
     padding: 0 30vw;
     overflow-x: hidden;
+}
+
+.aboutSectionRule{
+  margin: 7.5vmin 0;
 }
