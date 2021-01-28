@@ -1365,7 +1365,7 @@ header {
 
 
 
-/* Zevy Css */
+/* Zevy About Css */
 
 #aboutPic{
   width:40%;
@@ -1400,7 +1400,7 @@ color: #6C63FF;
 margin: 0;
 }
 
-.aboutSectionLink{
+.siteLink{
 font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
@@ -1409,7 +1409,7 @@ line-height: 22px;
 color: #C94062;
 }
 
-.aboutSectionLink:hover{
+.siteLink:hover{
   color: #A83250;
 }
 
@@ -1421,4 +1421,100 @@ color: #C94062;
 
 .aboutSectionRule{
   margin: 7.5vmin 0;
+}
+
+/* Zevy Home Css */
+
+#greeting{
+font-family: Montserrat Alternates;
+font-style: normal;
+font-weight: bold;
+font-size: 52px;
+color: #333333;
+}
+
+.homeSubSections{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.subSection{
+  /* width: 350px; */
+  width:45%;
+  /* margin: auto 5vmin;; */
+  /* margin-right: 1vmin; */
+  
+  margin-right:2vmin;
+}
+
+.subSectionImage{
+  height: 6vmin;
+  margin: 2vmin 0;
+  
+}
+
+.testimonialText{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+color: #737373;
+}
+
+.subSectionHeader{
+font-family: Montserrat Alternates;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+text-transform: lowercase;
+color: #333333;
+}
+
+#testimonials{
+  /* Container that holds all testimonials */
+  width:85%;
+  margin:auto;
+}
+.testimonial{
+  /* Container that holds one testimonial */
+  display:flex;
+}
+.testimonialImageContainer{
+  /* Container that holds the testimonial image */
+margin-right: 7vmin;
+  
+}
+.testimonialImage{
+  /* the testimonial image */
+margin:2vmin 0;
+height:6rem;
+}
+.testimonialImageDescription{
+  /* The p element for the image description */
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 10px;
+text-align: center;
+color: #333333;
+}
+.testimonialBody{
+  /* the container that holds the testimonial body text */
+}
+.testimonialText{
+  /* The p elements fot the testimonial text */
+}
+
+.cta{
+  
+}
+.ctaButtons{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ctaButton{
+  width:45%;
 }
