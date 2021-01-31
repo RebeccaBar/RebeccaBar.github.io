@@ -1490,19 +1490,24 @@ color: #333333;
 
 .testimonial{
   /* Container that holds one testimonial */
-  display:flex;
+  /* display:flex; */
   margin: 5vmin 0;
 }
 .testimonialImageContainer{
   /* Container that holds the testimonial image */
 margin-right: 7vmin;
-  
+float: left;
 }
 .testimonialImage{
   /* the testimonial image */
 margin:2vmin 0;
 height:6rem;
 }
+
+hr{
+  width:100%;
+}
+
 .testimonialImageDescription{
   /* The p element for the image description */
 font-family: Montserrat;
