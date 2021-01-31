@@ -848,7 +848,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 100px 0;
-    width: 300px;
+    width: 350px;
 }
 
 @media (max-width: 530px) {
@@ -1440,11 +1440,8 @@ color: #333333;
 }
 
 .subSection{
-  /* width: 350px; */
-  width:45%;
-  /* margin: auto 5vmin;; */
-  /* margin-right: 1vmin; */
-  
+  flex-basis: 230px;
+  flex-grow:1;
   margin-right:2vmin;
 }
 
@@ -1452,6 +1449,23 @@ color: #333333;
   height: 6vmin;
   margin: 2vmin 0;
   
+}
+
+.disclosure{
+font-family: Montserrat;
+font-style: italic;
+font-weight: 500;
+font-size: 10px;
+color: #737373;
+
+
+}
+
+#testimonials{
+  /* Container that holds all testimonials */
+  width:85%;
+  margin:auto;
+  margin-top: 20vmin;
 }
 
 .testimonialText{
@@ -1471,14 +1485,11 @@ text-transform: lowercase;
 color: #333333;
 }
 
-#testimonials{
-  /* Container that holds all testimonials */
-  width:85%;
-  margin:auto;
-}
+
 .testimonial{
   /* Container that holds one testimonial */
   display:flex;
+  margin: 5vmin 0;
 }
 .testimonialImageContainer{
   /* Container that holds the testimonial image */
@@ -1507,7 +1518,7 @@ color: #333333;
 }
 
 .cta{
-  
+  margin:10vmin 0;
 }
 .ctaButtons{
   display:flex;
