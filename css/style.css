@@ -1537,3 +1537,7 @@ color: #333333;
 .ctaButton{
   width:45%;
 }
+
+.main-nav__link-active{
+  color: #6C63FF;
+}
