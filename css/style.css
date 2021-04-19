@@ -232,6 +232,7 @@ section h5 {
     background-color: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
+    border-bottom: 4px solid #000;
 }
 
 .logo-home {
@@ -243,7 +244,6 @@ font-size: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -9rem;
 }
 
 .profile-sketch img {
@@ -262,15 +262,28 @@ font-size: 32px;
     }
 }
 
+.clients {
+    margin-top: 100px;
+}
+
 .clients h2 {
   text-align: center;
   font-family: montserrat;
-  color:#737373;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.5;
   border-bottom: none;
-  padding: 0 5vw 0 5vw;
+  padding: 10px 5vw 0 5vw;
+}
+
+.light {
+    font-weight: 900;
+    color: #737373;
+}
+
+.new-work {
+    background-color: #eee;
+    margin-top: 100px;
 }
 
 
